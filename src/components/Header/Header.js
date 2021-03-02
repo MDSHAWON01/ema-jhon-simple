@@ -6,6 +6,11 @@ const Header = () => {
     return (
         <div className="header">
             <img src={logo} alt=""/>
+            <nav>
+                <a href="/Shop">Shop</a>
+                <a href="/Review">order review</a>
+                <a href="/Manage">Manage Inventory</a>
+            </nav>
         </div>
     );
 };

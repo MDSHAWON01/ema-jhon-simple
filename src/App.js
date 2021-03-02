@@ -1,11 +1,24 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header/Header';
+import Header from './Components/Header/Header';
+import Shop from './Components/Shop/Shop';
+
+
+
+
+
+
 
 function App() {
   return (
     <div>
+        
         <Header></Header>
+        <Shop></Shop>
+        
+        
+        
+        
     </div>
   );
 }
